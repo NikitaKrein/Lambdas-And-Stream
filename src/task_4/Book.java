@@ -54,7 +54,19 @@ public class Book {
 
     @Override
     public int hashCode() {
-        return Objects.hash(getTitle(), getAuthors(), getNumberOfPages());
+        int ans = numberOfPages * 131;
+        if (title != null) {
+            ans += this.title.hashCode();
+        }
+        if (authors != null) {
+            for (Author author : getAuthors()){
+                ans += author.getAge() * 137;
+                if (author.getName() != null){
+                    ans += author.getName().hashCode();
+                }
+            }
+        }
+        return ans;
     }
 
     @Override

@@ -10,7 +10,7 @@ public class Runner {
         Author aleksievich = new Author("Svetlana Aleksievich", (short)25, new ArrayList<>());
         Author polukoshko = new Author("Vladislav Polukoshko", (short)22, new ArrayList<>());
         Author voss = new Author("Christopher Voss", (short)42, new ArrayList<>());
-        Author roberts = new Author("Gregory David Roberts", (short)42, new ArrayList<>());
+        Author roberts = new Author("Gregory David Roberts", (short)67, new ArrayList<>());
         Author[] authors = {aleksievich, polukoshko, voss, roberts};
 
         Book tsinkovyeMachiki = new Book("Tsinkovye malchiki", Collections.singletonList(aleksievich), 320);
@@ -85,5 +85,21 @@ public class Runner {
                 .forEach(System.out::println);
 
         System.out.println();
+
+        System.out.println("Authors:");
+        Arrays.stream(books)
+                .parallel()
+                .map(Book::getAuthors)
+                .distinct()
+                .forEach(System.out::println);
+
+        System.out.println();
+
+        System.out.println("The title of the biggest book:");
+        Arrays.stream(authors)
+                .flatMap(author -> author.getBooks().stream())
+                .max(Comparator.comparing(Book::getNumberOfPages))
+                .ifPresent(System.out::println);
     }
+
 }
