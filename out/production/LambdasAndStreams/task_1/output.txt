@@ -1,0 +1,13 @@
+Sorted by name
+| name = Dingo, age = 7 |
+| name = Kate, age = 11 |
+| name = Nik, age = 19 |
+| name = Rafa, age = 8 |
+| name = Steve, age = 15 |
+
+Sorted by age:
+| name = Dingo, age = 7 |
+| name = Rafa, age = 8 |
+| name = Kate, age = 11 |
+| name = Steve, age = 15 |
+| name = Nik, age = 19 |

@@ -1,0 +1,2 @@
+sum of 1, 2, 3 = 6
+multiplication(umnozhenie) of 4, 2, 3 = 24

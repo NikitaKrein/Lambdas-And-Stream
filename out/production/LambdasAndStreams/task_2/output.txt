@@ -1,0 +1,15 @@
+Test predicate interface = true
+Test BiPredicate interface = true
+Test supplier interface!
+Test consumer interface!
+Test BiConsumer interface!
+Test function interface! num1 = 0
+Test function interface! num1 = 0 | num2 = 0
+Test UnaryOperator interface!
+Test BinaryOperator interface!
+Test runnable interface!
+First example anon class
+First example default method!
+Second example lamda
+Second example default method!
+Static method!

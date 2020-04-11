@@ -1,0 +1,55 @@
+Books with more than 200 pages:
+Book{title = 'Shantaram', authors = [Author{name = 'Gregory David Roberts', age = 67}], numberOfPages = 944}
+Book{title = 'Never Split the Difference', authors = [Author{name = 'Christopher Voss', age = 42}], numberOfPages = 260}
+Book{title = 'Poslednie svideteli', authors = [Author{name = 'Svetlana Aleksievich', age = 25}], numberOfPages = 304}
+Book{title = 'Tsinkovye malchiki', authors = [Author{name = 'Svetlana Aleksievich', age = 25}], numberOfPages = 320}
+Book{title = 'The Mountain Shadow', authors = [Author{name = 'Gregory David Roberts', age = 67}], numberOfPages = 912}
+
+Book with the maximum number of pages: Book{title = 'Shantaram', authors = [Author{name = 'Gregory David Roberts', age = 67}], numberOfPages = 944}
+
+Book with the maximum number of pages: Book{title = 'Zhopolizy', authors = [Author{name = 'Vladislav Polukoshko', age = 22}], numberOfPages = 3}
+
+Books with single author:
+Book{title = 'Never Split the Difference', authors = [Author{name = 'Christopher Voss', age = 42}], numberOfPages = 260}
+Book{title = 'Prosti', authors = [Author{name = 'Vladislav Polukoshko', age = 22}], numberOfPages = 4}
+Book{title = 'Tsinkovye malchiki', authors = [Author{name = 'Svetlana Aleksievich', age = 25}], numberOfPages = 320}
+Book{title = 'The Mountain Shadow', authors = [Author{name = 'Gregory David Roberts', age = 67}], numberOfPages = 912}
+Book{title = 'Poslednie svideteli', authors = [Author{name = 'Svetlana Aleksievich', age = 25}], numberOfPages = 304}
+Book{title = 'Zhopolizy', authors = [Author{name = 'Vladislav Polukoshko', age = 22}], numberOfPages = 3}
+Book{title = 'Shantaram', authors = [Author{name = 'Gregory David Roberts', age = 67}], numberOfPages = 944}
+
+Sorted by pages:
+Book{title = 'Zhopolizy', authors = [Author{name = 'Vladislav Polukoshko', age = 22}], numberOfPages = 3}
+Book{title = 'Prosti', authors = [Author{name = 'Vladislav Polukoshko', age = 22}], numberOfPages = 4}
+Book{title = 'Never Split the Difference', authors = [Author{name = 'Christopher Voss', age = 42}], numberOfPages = 260}
+Book{title = 'Poslednie svideteli', authors = [Author{name = 'Svetlana Aleksievich', age = 25}], numberOfPages = 304}
+Book{title = 'Tsinkovye malchiki', authors = [Author{name = 'Svetlana Aleksievich', age = 25}], numberOfPages = 320}
+Book{title = 'The Mountain Shadow', authors = [Author{name = 'Gregory David Roberts', age = 67}], numberOfPages = 912}
+Book{title = 'Shantaram', authors = [Author{name = 'Gregory David Roberts', age = 67}], numberOfPages = 944}
+
+Sorted by title:
+Book{title = 'Never Split the Difference', authors = [Author{name = 'Christopher Voss', age = 42}], numberOfPages = 260}
+Book{title = 'Poslednie svideteli', authors = [Author{name = 'Svetlana Aleksievich', age = 25}], numberOfPages = 304}
+Book{title = 'Prosti', authors = [Author{name = 'Vladislav Polukoshko', age = 22}], numberOfPages = 4}
+Book{title = 'Shantaram', authors = [Author{name = 'Gregory David Roberts', age = 67}], numberOfPages = 944}
+Book{title = 'The Mountain Shadow', authors = [Author{name = 'Gregory David Roberts', age = 67}], numberOfPages = 912}
+Book{title = 'Tsinkovye malchiki', authors = [Author{name = 'Svetlana Aleksievich', age = 25}], numberOfPages = 320}
+Book{title = 'Zhopolizy', authors = [Author{name = 'Vladislav Polukoshko', age = 22}], numberOfPages = 3}
+
+Titles:
+Never Split the Difference
+Zhopolizy
+Tsinkovye malchiki
+Shantaram
+Prosti
+Poslednie svideteli
+The Mountain Shadow
+
+Authors:
+[Author{name = 'Christopher Voss', age = 42}]
+[Author{name = 'Gregory David Roberts', age = 67}]
+[Author{name = 'Svetlana Aleksievich', age = 25}]
+[Author{name = 'Vladislav Polukoshko', age = 22}]
+
+The title of the biggest book:
+Book{title = 'Shantaram', authors = [Author{name = 'Gregory David Roberts', age = 67}], numberOfPages = 944}
